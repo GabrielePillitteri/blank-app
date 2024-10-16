@@ -8,7 +8,7 @@ st.write(
 
 # @title Scrape prezzi Metalli
 from urllib.request import urlopen, Request
-import BeautifulSoup as BeautifulSoup
+from bs4 import BeautifulSoup
 import pandas as pd
 
 class ScrapySoup:
