@@ -5,6 +5,7 @@ st.write(
     "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
 )
 
+pip install beautifulsoup4 pandas
 
 # @title Scrape prezzi Metalli
 from urllib.request import urlopen, Request
